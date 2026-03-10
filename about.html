@@ -2,12 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <title>About - CI/CD Pipeline Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #232f3e;
+        }
+        ul {
+            line-height: 2;
+        }
+        a {
+            color: #0073bb;
+        }
+    </style>
 </head>
 <body>
-    <a href="about.html">About This Project</a>
     <h1>About This Project</h1>
-    <p>This site is deployed automatically using a GitHub Actions CI/CD pipeline to AWS S3.</p>
-    <a href="index.html">Back to Home</a>
+    <p>This is a portfolio project demonstrating a CI/CD pipeline using GitHub Actions and AWS.</p>
+    <h2>What it does</h2>
+    <ul>
+        <li>Code is pushed to GitHub</li>
+        <li>GitHub Actions automatically triggers a workflow</li>
+        <li>The workflow deploys the site to AWS S3</li>
+        <li>The live site updates within seconds</li>
+    </ul>
+    <h2>Tech Stack</h2>
+    <ul>
+        <li>GitHub Actions</li>
+        <li>AWS S3 (static hosting)</li>
+        <li>AWS CLI</li>
+    </ul>
+    <p><a href="index.html">← Back to Home</a></p>
 </body>
 </html>
