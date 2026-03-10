@@ -1,14 +1,42 @@
+<h1>Hello from my CI/CD Pipeline!</h1>
+<p>This site is automatically deployed to AWS S3 via GitHub Actions.</p>
+<a href="about.html">About This Project</a>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>CI/CD Pipeline Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #232f3e;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #ff9900;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        a {
+            color: #0073bb;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello from my CI/CD Pipeline!</h1>
-    <p>This page was deployed automatically via GitHub Actions.</p>
-    <p>This page was deployed automatically via GitHub Actions. Version 2 - March 2026.</p>
-    <p> This is another line of practice text for the pipeline </p>
-    <a href="about.html">About This Project</a>
+    <h1>CI/CD Pipeline Demo</h1>
+    <div class="badge">Deployed via GitHub Actions → AWS S3</div>
+    <p>This site is automatically deployed to AWS S3 every time code is pushed to GitHub.</p>
+    <p>Built by Jeff Boyle | <a href="about.html">About This Project</a></p>
 </body>
 </html>
